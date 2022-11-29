@@ -1,0 +1,77 @@
+.form{
+    text-align: center;
+}
+
+h1{
+    margin: 8px 0 46px 0;
+    font-size: 40px;
+}
+
+body{
+    background: #FF9534;
+}
+
+.inputbox{
+    margin:20px;
+    font-size: 40px;
+}
+
+.calc-answere{
+    margin:3px;
+    font-size: 40px;
+}
+
+.buttons{
+    font-size: 36px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    background-color: #FF891e;
+    border-color: black;
+    margin: 0px 4px;
+    border-width:2px;
+}
+
+#answere{
+    margin: 40px;
+}
+
+#dayTracker{
+    font-size: 34px;
+    padding: 14px 4px;
+    border-radius: 8px;
+    background-color: #FF891e;
+    border-color: black;
+    color:black;
+    border-width:1px;
+    height: 26px;
+    width: 210px;
+}
+
+#startDistance{
+    font-size: 34px;
+    padding: 14px 4px;
+    border-radius: 8px;
+    background-color: #FF891e;
+    border-color: black;
+    color:black;
+    border-width:1px;
+    height: 26px;
+    width: 210px;
+}
+
+#endDistance{
+    font-size: 34px;
+    padding: 14px 4px;
+    border-radius: 8px;
+    background-color: #FF891e;
+    border-color: black;
+    color:black;
+    border-width:1px;
+    height: 26px;
+    width: 210px;
+}
+
+button:hover {
+    background-color:#F67500;
+    cursor:pointer;
+    }

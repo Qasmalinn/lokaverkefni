@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fúsi.</title>
+    <script type="text/javascript" src="./script.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="form">
+
+        <img src="car.png" alt="carimg" width="80px" height="80px">
+
+        <div>
+        <h1>Orango<div>Car Rental</div></h1>
+        </div>
+        <div class="inputbox">
+        Days: <input type="text" id="dayTracker">
+        </div>
+        <div class="inputbox">
+            Odometer:
+        </div>
+        <div class="inputbox">
+            Start: <input type="text" id="startDistance">
+        </div>
+        <div class="inputbox">
+            End: <input type="text" id="endDistance">
+        </div>
+        <div id="answere">
+        <div class="calc-answere">
+            <span>Miles driven:</span>
+            <span id="milesDriven">0</span>
+        </div>
+        <div class="calc-answere">
+            <span>Days fee:</span>
+            <span id="daysFee">$0</span>
+        </div>
+        <div class="calc-answere">
+            <span>Miles fee:</span>
+            <span id="milesFee">$0</span>
+        </div>
+        <div class="calc-answere">
+            <span><b>Amount due:</b></span>
+            <span id="amountDue"><b>$0</b></span>
+        </div>
+        </div>
+        <div>
+            <Button onclick="calculateNumbers()" class="buttons">Calculate</Button>
+            <span><button onclick="clearNumbers()" class="buttons">Reset</button></span>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
